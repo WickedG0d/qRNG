@@ -7,15 +7,13 @@
 
 **qRNG** is an open-source quantum random number generator written in python. It achieves this by using IBM's [QISKit](https://qiskit.org/) API to communicate with any one of their publicly accessible quantum computers:
 
-- `ibmq_armonk` 1 qubit
-- `ibmq_london` 5 qubits
-- `ibmq_burlington` 5 qubits
-- `ibmq_essex` 5 qubits
-- `ibmq_ourense` 5 qubits
-- `ibmq_vigo` 5 qubits
-- `ibmqx2` 5 qubits
+- `ibm_nairobi` 7 qubit
+- `ibm_oslo` 7 qubits
+- `ibmq_manila` 5 qubits
+- `ibmq_quito` 5 qubits
+- `ibmq_belem` 5 qubits
+- `ibmq_lima` 5 qubits
 - `ibmq_qasm_simulator` 32 qubits (simulated)
-- `qasm_simulator` 8 qubits (simulated)
 
 Note that you need to input your IBMQ API token (make an IBMQ account [here](https://quantum-computing.ibm.com/)) to access any of these quantum computers/simulators, except for  `qasm_simulator` which can be accessed locally via the instructions below.
 
